@@ -1,3 +1,6 @@
 <!--pages/home/home.wxml-->
 <!-- 1.展示轮播图 -->
 <w-swiper list="{{ banners }}" />
+
+<!-- 2.推荐数据展示 -->
+<w-recommend recommends="{{ recommends }}" />
