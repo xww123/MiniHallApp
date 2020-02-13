@@ -7,3 +7,7 @@
 
 <!-- 3.展示本周流行 -->
 <w-popular />
+
+<!-- 4.tab-control -->
+<w-tab-control titles="{{ titles }}" 
+               bind:tabclick="handleTabClick"/>

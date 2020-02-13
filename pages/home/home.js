@@ -10,7 +10,8 @@ Page({
    */
   data: {
     banners:[],
-    recommends:[]
+    recommends:[],
+    titles: ['流行', '新款', '精选']
   },
 
   /**
@@ -30,6 +31,12 @@ Page({
         recommends
       })
     })
+  },
+  handleTabClick(e){
+    // 取出index
+    // console.log('tabclick',e)
+    const index= e.detail.index
+    console.log(index)
   }
 
 })
